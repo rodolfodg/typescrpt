@@ -49,6 +49,6 @@ app.get('/users', (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
+  console.log(`Servidor rodando em http://localhost:3000`);
   console.log(`Health: http://localhost:${port}/health`);
 });
